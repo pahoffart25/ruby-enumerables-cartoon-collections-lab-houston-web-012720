@@ -4,9 +4,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  new_array =[]
-  new_array.push array.map { |e| e.upcase }
-  return new_array
+  new_array.push array.map { |e| 
+    puts e.upcase + "!" }
 end
 
 def long_planeteer_calls# code an argument here
