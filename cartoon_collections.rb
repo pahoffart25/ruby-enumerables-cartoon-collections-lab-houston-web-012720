@@ -4,12 +4,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  new_array = []
-  index = 0
-  while index < array.length do
-  new_array.push array.map { |e| "#{e}!" }
-end
-return
+  array.map { |e| "#{e}!" }
 end
 
 def long_planeteer_calls# code an argument here
